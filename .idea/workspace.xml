@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação do exercicio switch case">
-      <change afterPath="$PROJECT_DIR$/src/controle/DesafioDiaSemana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controle/DesafioFor.java" afterDir="false" />
+    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: for e dia da semana">
+      <change afterPath="$PROJECT_DIR$/src/classe/AreaCirc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/AreaCircTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/Comida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/DataTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/Jantar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/PrimeiroTrauma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/ProdutoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/ValorNulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/ValorVsReferencia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.DesafioFor">
-    <configuration name="DesafioDiaSemana" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controle.DesafioDiaSemana" />
+}</component>
+  <component name="RunManager" selected="Application.Jantar">
+    <configuration name="DataTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classe.DataTeste" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controle.*" />
+          <option name="PATTERN" value="classe.desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesafioFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controle.DesafioFor" />
+    <configuration name="Jantar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classe.desafio.Jantar" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controle.*" />
+          <option name="PATTERN" value="classe.desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesafioWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controle.DesafioWhile" />
+    <configuration name="PrimeiroTrauma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classe.PrimeiroTrauma" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controle.*" />
+          <option name="PATTERN" value="classe.desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controle.DoWhile" />
+    <configuration name="ProdutoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classe.ProdutoTeste" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controle.*" />
+          <option name="PATTERN" value="classe.desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchComBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controle.SwitchComBreak" />
+    <configuration name="ValorVsReferencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classe.ValorVsReferencia" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controle.*" />
+          <option name="PATTERN" value="classe.desafio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesafioFor" />
-        <item itemvalue="Application.DesafioDiaSemana" />
-        <item itemvalue="Application.SwitchComBreak" />
-        <item itemvalue="Application.DesafioWhile" />
-        <item itemvalue="Application.DoWhile" />
+        <item itemvalue="Application.Jantar" />
+        <item itemvalue="Application.PrimeiroTrauma" />
+        <item itemvalue="Application.ValorVsReferencia" />
+        <item itemvalue="Application.ProdutoTeste" />
+        <item itemvalue="Application.DataTeste" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669578219076</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criação dos exercicios: for e dia da semana">
+      <created>1669598485818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669598485818</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do projeto" />
     <MESSAGE value="Criação do exercicio switch case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do exercicio switch case" />
+    <MESSAGE value="Criação dos exercicios: for e dia da semana" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: for e dia da semana" />
   </component>
 </project>
