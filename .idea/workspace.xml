@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: for e dia da semana">
-      <change afterPath="$PROJECT_DIR$/src/classe/AreaCirc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/AreaCircTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/Comida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/DataTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/Jantar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/PrimeiroTrauma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/ProdutoTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/ValorNulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/ValorVsReferencia.java" afterDir="false" />
+    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: Orientação a objetos">
+      <change afterPath="$PROJECT_DIR$/src/arrays/Desafio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Exercicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Foreach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Matriz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/EqualsHashCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classe/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colecoes/ConjuntoBaguncado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colecoes/ConjuntoComportado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colecoes/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colecoes/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,17 +42,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Jantar">
-    <configuration name="DataTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classe.DataTeste" />
+  <component name="RunManager" selected="Application.Lista">
+    <configuration name="ConjuntoBaguncado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoes.ConjuntoBaguncado" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classe.desafio.*" />
+          <option name="PATTERN" value="colecoes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jantar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classe.desafio.Jantar" />
+    <configuration name="ConjuntoComportado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoes.ConjuntoComportado" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classe.desafio.*" />
+          <option name="PATTERN" value="colecoes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeiroTrauma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classe.PrimeiroTrauma" />
+    <configuration name="EqualsHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classe.EqualsHashCode" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classe.desafio.*" />
+          <option name="PATTERN" value="classe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classe.ProdutoTeste" />
+    <configuration name="Lista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoes.Lista" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classe.desafio.*" />
+          <option name="PATTERN" value="colecoes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValorVsReferencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classe.ValorVsReferencia" />
+    <configuration name="Matriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Matriz" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classe.desafio.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Jantar" />
-        <item itemvalue="Application.PrimeiroTrauma" />
-        <item itemvalue="Application.ValorVsReferencia" />
-        <item itemvalue="Application.ProdutoTeste" />
-        <item itemvalue="Application.DataTeste" />
+        <item itemvalue="Application.Lista" />
+        <item itemvalue="Application.ConjuntoComportado" />
+        <item itemvalue="Application.ConjuntoBaguncado" />
+        <item itemvalue="Application.EqualsHashCode" />
+        <item itemvalue="Application.Matriz" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669598485818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criação dos exercicios: Orientação a objetos">
+      <created>1669693115587</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669693115587</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +168,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -172,6 +190,7 @@
     <MESSAGE value="Criação do projeto" />
     <MESSAGE value="Criação do exercicio switch case" />
     <MESSAGE value="Criação dos exercicios: for e dia da semana" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: for e dia da semana" />
+    <MESSAGE value="Criação dos exercicios: Orientação a objetos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: Orientação a objetos" />
   </component>
 </project>
