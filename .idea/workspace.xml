@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: Orientação a objetos">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Desafio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/Exercicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/Foreach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/EqualsHashCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classe/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/colecoes/ConjuntoBaguncado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/colecoes/ConjuntoComportado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/colecoes/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/colecoes/Usuario.java" afterDir="false" />
+    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: Arrays e Collections">
+      <change afterPath="$PROJECT_DIR$/src/colecoes/Fila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colecoes/Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colecoes/Mapa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colecoes/Pilha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oo_composicao/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oo_composicao/CarroTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oo_composicao/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oo_composicao/CompraTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oo_composicao/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oo_composicao/Motor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lista">
+  <component name="RunManager" selected="Application.Pilha">
     <configuration name="ConjuntoBaguncado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="colecoes.ConjuntoBaguncado" />
       <module name="exercicios" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Matriz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Matriz" />
+    <configuration name="Pilha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colecoes.Pilha" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="colecoes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pilha" />
         <item itemvalue="Application.Lista" />
         <item itemvalue="Application.ConjuntoComportado" />
         <item itemvalue="Application.ConjuntoBaguncado" />
         <item itemvalue="Application.EqualsHashCode" />
-        <item itemvalue="Application.Matriz" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669693115587</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criação dos exercicios: Arrays e Collections">
+      <created>1669776364457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669776364457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +198,7 @@
     <MESSAGE value="Criação do exercicio switch case" />
     <MESSAGE value="Criação dos exercicios: for e dia da semana" />
     <MESSAGE value="Criação dos exercicios: Orientação a objetos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: Orientação a objetos" />
+    <MESSAGE value="Criação dos exercicios: Arrays e Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: Arrays e Collections" />
   </component>
 </project>
