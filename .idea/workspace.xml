@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: Lambdas e Herança">
-      <change afterPath="$PROJECT_DIR$/src/streams/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/CriandoStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/DesafioFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/DesafioMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/ImprimindoObjetos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Utilitarios.java" afterDir="false" />
+    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: Stream">
+      <change afterPath="$PROJECT_DIR$/src/streams/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/MediaTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/MinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Outros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Reduce1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Reduce2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Reduce3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambdas/Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/Consumidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +48,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DesafioFilter">
-    <configuration name="CriandoStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.CriandoStreams" />
+  <component name="RunManager" selected="Application.Outros">
+    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Match" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DesafioFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.DesafioFilter" />
+    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.MinMax" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Filter" />
+    <configuration name="Outros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Outros" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Map" />
+    <configuration name="Reduce2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Reduce2" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Threads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdas.Threads" />
+    <configuration name="Reduce3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Reduce3" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambdas.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesafioFilter" />
-        <item itemvalue="Application.Filter" />
-        <item itemvalue="Application.Map" />
-        <item itemvalue="Application.CriandoStreams" />
-        <item itemvalue="Application.Threads" />
+        <item itemvalue="Application.Outros" />
+        <item itemvalue="Application.MinMax" />
+        <item itemvalue="Application.Match" />
+        <item itemvalue="Application.Reduce3" />
+        <item itemvalue="Application.Reduce2" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670235398463</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Criação dos exercicios: Stream">
+      <created>1670405570627</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670405570627</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +223,7 @@
     <MESSAGE value="Criação dos exercicios: Arrays e Collections" />
     <MESSAGE value="Criação dos exercicios: Collections" />
     <MESSAGE value="Criação dos exercicios: Lambdas e Herança" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: Lambdas e Herança" />
+    <MESSAGE value="Criação dos exercicios: Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: Stream" />
   </component>
 </project>
