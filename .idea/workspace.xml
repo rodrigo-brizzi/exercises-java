@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: Stream">
-      <change afterPath="$PROJECT_DIR$/src/streams/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/MediaTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Outros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Reduce1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Reduce2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Reduce3.java" afterDir="false" />
+    <list default="true" id="e5873394-78b3-4edf-be6d-f4502179520f" name="Changes" comment="Criação dos exercicios: Stream continuação">
+      <change afterPath="$PROJECT_DIR$/src/excecao/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/Basico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/Causa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/ChecadaVsNaoChecada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/Finally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/personalizadaA/NumeroForaIntervaloException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/personalizadaA/StringVaziaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/personalizadaA/TesteValidacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/personalizadaA/Validar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/personalizadaB/NumeroForaIntervaloException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/personalizadaB/StringVaziaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/personalizadaB/TesteValidacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/personalizadaB/Validar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Projetos/Java/exercicios/src/excecao/personalizadaB"
   }
-}</component>
-  <component name="RunManager" selected="Application.Outros">
-    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Match" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projetos\Java\exercicios\src\excecao\personalizadaB" />
+      <recent name="C:\Projetos\Java\exercicios\src\excecao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="excecao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Causa">
+    <configuration name="Basico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecao.Basico" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="excecao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.MinMax" />
+    <configuration name="Causa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecao.Causa" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="excecao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Outros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Outros" />
+    <configuration name="ChecadaVsNaoChecada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecao.ChecadaVsNaoChecada" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="excecao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduce2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Reduce2" />
+    <configuration name="Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecao.Finally" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="excecao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reduce3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.Reduce3" />
+    <configuration name="TesteValidacoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excecao.personalizadaA.TesteValidacoes" />
       <module name="exercicios" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="excecao.personalizadaA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Outros" />
-        <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.Match" />
-        <item itemvalue="Application.Reduce3" />
-        <item itemvalue="Application.Reduce2" />
+        <item itemvalue="Application.Causa" />
+        <item itemvalue="Application.Finally" />
+        <item itemvalue="Application.TesteValidacoes" />
+        <item itemvalue="Application.ChecadaVsNaoChecada" />
+        <item itemvalue="Application.Basico" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670405570627</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Criação dos exercicios: Stream continuação">
+      <created>1670579270987</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670579270988</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +245,7 @@
     <MESSAGE value="Criação dos exercicios: Collections" />
     <MESSAGE value="Criação dos exercicios: Lambdas e Herança" />
     <MESSAGE value="Criação dos exercicios: Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: Stream" />
+    <MESSAGE value="Criação dos exercicios: Stream continuação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação dos exercicios: Stream continuação" />
   </component>
 </project>
